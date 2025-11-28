@@ -1,0 +1,64 @@
+# IDE 配置
+/.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# 测试和覆盖率
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# 分发 / 打包
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# 日志文件
+*.log
+logs/
+
+# 敏感信息（重要！）
+.env
+.env.local
+*.key
+*.pem
+secrets/
+config_local.py
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
